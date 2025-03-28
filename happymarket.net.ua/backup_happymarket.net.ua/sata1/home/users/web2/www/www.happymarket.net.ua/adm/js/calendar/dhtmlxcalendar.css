@@ -1,0 +1,221 @@
+/*SilverLight skin. default*/
+
+.dhtmlxcalendar{
+	background: url(imgs/cal_bg_single.png) no-repeat;
+	border: 0px solid green;
+	font-family: Arial;
+	z-index:99;
+	height:178px;
+	padding:16px;
+	width:146px;	
+}
+
+.dhtmlxcalendar_minimized{
+	background: url(imgs/cal_bg_single_mini.png) no-repeat;
+	height:25px;
+	padding:0;
+	width:178px;
+}
+
+.dhtmlxcalendar_ifr {
+	height:172px;
+	width:172px;
+}
+
+.dhtmlxcalendar_minimized .dhtmlxcalendarHeader{
+  	margin-left:16px;
+  	padding-top:4px;
+}
+.dhtmlxcalendar .dhtmlxcalendarHeader {
+	text-align:right;
+	width:144;
+}
+
+.dhtmlxcalendar .winTitle {
+	color:black;
+	font-size:11px;
+	float:left;
+	cursor: move;	
+}
+
+.dhtmlxcalendar .btn, .btn_mini, .btn_close, .btn_today, .btn_clr {
+	float:right;
+	height:12px;
+	width:13px;	
+}
+
+.dhtmlxcalendar .btn_mini {
+  	background: url(imgs/btn_mini.gif) no-repeat;
+}
+
+.dhtmlxcalendar_minimized .btn_mini {
+  	background: url(imgs/btn_maxi.gif) no-repeat;
+}
+
+.dhtmlxcalendar .btn_close {
+  	background: url(imgs/btn_close.gif) no-repeat;
+}
+
+.dhtmlxcalendar .btn_today {
+  	background: url(imgs/btn_today.gif) no-repeat;
+
+}
+
+.dhtmlxcalendar .btn_clr {
+  	background: url(imgs/btn_clr.gif) no-repeat;
+}
+
+.dhtmlxcalendar .entbox{
+	width:145px;
+	clear:both;
+}
+
+.dhtmlxcalendar td {
+	font-size: 10px;
+	font-family: Tahoma;
+	text-align:center;
+}
+
+.dhtmlxcalendar .dxcalmonth {
+
+}
+
+.dhtmlxcalendar .dxcalmonth td.month_btn_left,
+.dhtmlxcalendar .dxcalmonth td.month_btn_right {
+	background: transparent url(imgs/cal_arrow_bwd.gif) center center no-repeat;
+	background-repeat: no-repeat;
+	width: 9px;
+}
+.dhtmlxcalendar .dxcalmonth td.month_btn_right {
+	background: transparent url(imgs/cal_arrow_fwd.gif) center center no-repeat;
+}
+
+.dhtmlxcalendar .dxcalmonth td.month_btn_left span,
+.dhtmlxcalendar .dxcalmonth td.month_btn_right span{
+	visibility: hidden;
+}
+
+.dhtmlxcalendar .dxcaldlabel {
+	border-bottom: 1px solid #7e7e7e;
+	color:#7e7e7e;
+	border-top: 0px;
+	padding-left:2px;
+
+}
+.dhtmlxcalendar .dxcaldlabel td,
+.dhtmlxcalendar .dxcaldays td,
+.dhtmlxcalendar .dxcaldays_ie td{
+	font-size: 10px;
+	font-family: Tahoma;
+	text-align: center;
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+	color: #7e7e7e;
+}
+
+
+.dhtmlxcalendar .dxcaldays td,
+.dhtmlxcalendar .dxcaldays_ie td{
+	border: 0px;
+	cursor: pointer;
+}
+.dhtmlxcalendar .dxcaldays_ie td{
+	height:16px;
+}
+.dhtmlxcalendar td.comma{
+	visibility:visible;
+}
+.dhtmlxcalendar div.planeMonth,
+.dhtmlxcalendar div.planeYear {
+	height: auto;
+	overflow: auto;
+}
+div.dhtmlxcalendar div.planeYear{
+	display:inline;
+	width:28px;
+}
+
+/* begin: days colors */
+.dhtmlxcalendar td.thismonth{
+	color:black;
+	padding:1px;
+}
+
+.dhtmlxcalendar td.othermonth{
+	visibility:hidden;
+	
+}
+
+.dhtmlxcalendar td.weekend{
+	color:#a70000;
+	padding:1px;
+}
+
+.dhtmlxcalendar td.insensitive{
+	color:#b5b5b5;
+	cursor: default;
+	padding:1px;
+}
+
+.dhtmlxcalendar td.selected{
+	background-color: #6699FF;
+	color:white !important;
+}
+
+
+.dhtmlxcalendar td.current{
+	font-weight:bold  !important;
+	color:black;
+}
+
+.dhtmlxcalendar td.hover{
+	border:1px solid #b5b5b5;
+	color:#095BFF;
+	padding:0px;
+}
+
+.dhtmlxcalendar td.holiday{ 
+	font-weight:bold;
+	color:#a70000;
+}
+
+/* end: silverlight */
+
+/* begin: dhtmlxDblCalendarObject */
+.dhtmlxdblcalendar {
+	background: url(imgs/cal_bg_double.png) no-repeat;
+	padding: 0px;
+}
+.dhtmlxdblcalendar .dhtmlxcalendar {
+	background-image: url(imgs/blank.gif);
+}
+/* end: dhtmlxDblCalendarObject */
+
+/* begin: dhtmlxRichSelector */
+.dhtmlxcalendar div.dhtmlxRichSelector {
+	position: absolute;
+	background-color:#ffffff;
+	display: block;
+}
+.dhtmlxcalendar textarea.dhtmlxRichSelector,
+.dhtmlxcalendar select.dhtmlxRichSelector {
+	font-family: verdana;
+	position: absolute;
+	font-size: 9px;
+	overflow: hidden;
+	border-width: 0px;
+	z-index:100;
+}
+.dhtmlxcalendar select.dhtmlxRichSelector {
+	border: 1px solid #555555;
+}
+.poscalendar {
+	margin-top:27px;
+	position:absolute;
+}
+*html .poscalendar {
+	margin-left:256px;
+	margin-top:5px;
+}
+/* end: dhtmlxRichSelector */

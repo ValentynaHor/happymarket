@@ -1,0 +1,11 @@
+UPDATE table_resource SET
+resourcePrice = resourcePrice * (SELECT courseUSD FROM `table_setting` LIMIT 1),
+enterPrice = enterPrice * (SELECT courseUSD FROM `table_setting` LIMIT 1)
+WHERE resourceCurrency = 'usd';
+
+ALTER TABLE `table_setting` DROP `courseUSD`, DROP `courseEURO`;
+ALTER TABLE `table_resource` DROP `resourceCurrency`;
+ALTER TABLE `table_user` ADD `wholesale` BOOLEAN NOT NULL DEFAULT FALSE;
+ALTER TABLE `table_resource` ADD `wholesalePrice` DECIMAL(10, 2) UNSIGNED NOT NULL DEFAULT '0.00' AFTER `enterPrice`;
+
+UPDATE table_resource SET wholesalePrice = resourcePrice;

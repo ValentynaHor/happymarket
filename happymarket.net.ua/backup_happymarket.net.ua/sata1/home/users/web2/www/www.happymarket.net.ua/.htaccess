@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^happymarket.net.ua
+RewriteRule ^(.*)$ http://www\.happymarket.net.ua/$1 [R=permanent,L]
+
+RewriteRule ^(.*).html$ $1 [L]
+
+RewriteCond %{REQUEST_URI} !^/adm/
+RewriteCond %{REQUEST_URI} !^/index.php
+RewriteCond %{REQUEST_URI} !\.
+RewriteRule ^(.*)$ /index.php [L]

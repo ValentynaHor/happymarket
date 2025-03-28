@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>404</title>
+<base href="<?=urlse?>">
+<link type="text/css" rel="stylesheet" href="/css/style.css" />
+<style type="text/css">
+.title404{
+	font-size:20px;
+	color:#565656;
+	
+}
+a.titleModna{
+	font-size:28px;
+	color:#e93900;
+	text-decoration:none;
+}
+a.titleModna:hover{
+	text-decoration:none;
+}
+</style>
+</head>
+<body>
+<table width="680px" cellspacing="0" cellpadding="0" align="center" style="margin-top:20px">
+<tr>
+	<td align="center" valign="top">
+		<div><a href="<?=urlse?>" class="titleModna">happymarket.net.ua</a></div>
+		<table border="0" width="680">
+		<tr>
+			<td width="257" align="right"><span style="font-size:26px; color:#999">Ошибка</span></td>
+			<td width="166" align="center"><span style="font-weight:bold; font-size:68px; color:#ffd400">404</span></td>
+			<td width="257" align="left"><span style="font-size:18px; color:#999">страница<br>не найдена</span></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td valign="top" align="center"><img src="images/classic/sad404.png"></td>
+			<td></td>
+		</tr>
+		</table>
+		<div style="margin-top:20px; width:415px" align="left">
+		<p>Запрошенная вами страница не существует. Возможно, Вы ввели<br>неверный адрес, либо перешли по неправильной ссылке.</p>
+		<p>Вы можете перейти на <a href="<?=urlse?>">главную страницу</a> или <a href="javascript:history.back();">вернуться на предыдущую</a>.</p>
+		</div>
+		<div style="width:458px; margin-top:48px">
+		<?
+		for($i=0; $i < $outputDep['rows']; $i++)
+		{
+			if($outputDep[$i]['parentDepartmentID'] == 'top')
+			{
+				echo '<div class="depContainer">';
+					echo '<a href="'.$outputDep[$i]['departmentAlias'].'/" class="depTitle">'.$outputDep[$i]['departmentHeadTitle'].'</a>';
+					echo '<div class="depDescription">'.$outputDep[$i]['departmentName'].'</div>';
+				echo '</div>';
+			}
+		}
+		?>
+		<br clear="all">
+		</div>
+	</td>
+</tr>
+</table>
+</body>
+</html>

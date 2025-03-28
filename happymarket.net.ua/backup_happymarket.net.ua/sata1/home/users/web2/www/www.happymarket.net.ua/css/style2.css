@@ -1,0 +1,232 @@
+body {margin:0; padding:0; font-family:Arial, Verdana; font-size: 12px; color: #323232; height:100%}
+td {font-family:Arial, Verdana; font-size: 12px; color: #323232;}
+img {border:0px; margin:0px; padding:0px;}
+input {border: 1px solid #424242; margin: 2; vertical-align:middle;}
+select {border: 1px solid #424242; vertical-align:middle;}
+input.inputnontext {border: 0px solid #424242}
+fieldset {padding-left: 10; padding-right: 10}
+
+FORM {margin:0; padding:0}
+
+/*HOME INTRO*/
+#mainintro{background:#D5F1FC url('../images/classic/mainbg.jpg') center top no-repeat; width:100%; height:900px;}
+#refCont{width:1000px; height:900px; position:relative}
+#smiley{position:absolute; left:280; top:21; background:url('../images/classic/smiley.png') center top no-repeat; width:436px; height:517px;}
+#vehicle{position:absolute; left:0; top:250; background:url('../images/classic/vehicle.png') center top no-repeat; width:244px; height:174px;}
+#kids{position:absolute; right:10; top:180; background:url('../images/classic/lildudes.png') center top no-repeat; width:207px; height:244px;}
+#hifi{position:absolute; left:386; top:568; background:url('../images/classic/hi-fi.png') center top no-repeat; width:218px; height:175px;}
+#soon1{position:absolute; right:10; top:180; width:207px; height:244px;}
+#footerHome{position:absolute; right:0; top:880; text-align:center; width:100%; font-size:14px; font-weight:bold; color:##020202}
+
+.titleHomeMain, a.titleHomeMain, a.titleHomeMain:hover{font-size:23px; color:#1d1d1d; text-align:center;  text-decoration:none;}
+.titleHomeMain2, a.titleHomeMain2, a.titleHomeMain2:hover{font-size:23px; color:#ff3000; text-align:center; font-weight:bold;  text-decoration:none;}
+.titleHome, a.titleHome, a.titleHome:hover{font-size:18px; color:#ff701a; font-weight:bold;  text-decoration:none;}
+.titleHome2, a.titleHome2, a.titleHome2:hover{font-size:13px; color:#030303; font-weight:bold;  text-decoration:none;}
+
+
+
+
+a, input{outline:none}
+.loginButton{background:url('../images/classic/login.png') center top no-repeat; width:58px; height:52px; border:none; cursor:pointer; margin-left:10px; }
+.button1{background:url('../images/classic/button1wbg.png') center top no-repeat; width:101px; height:28px; border:none; cursor:pointer; vertical-align:middle; }
+
+h1{margin-bottom:6px;}
+
+a{color:#e93900; text-decoration:underline;}
+a:hover {color:#e93900; text-decoration:none;}
+a.black{color:#000; font-weight:bold; text-decoration:underline;}
+a.black:hover{color:#555; text-decoration:underline;}
+a.black_nostyle{color:#000; text-decoration:none;}
+a.black_nostyle:hover {color:#555; text-decoration:none;}
+a.blue{color:#041bfd;}
+a.blue:hover{color:#041bfd;}
+.d3{color:#e93900;}
+
+#centerpiece{padding:10 20 26 20; width:100% \9; }
+
+#sky{height:164px; background:url('../images/classic/clouds.jpg') left top repeat-x;}
+#menu{height:41px; background:url('../images/classic/menubg.png') left top repeat-x;}
+#submenu{height:67px; background:#fbfbfb;}
+#logo_tech{width:422px; height:164px; background:url('../images/classic/head1_tech.jpg') left top no-repeat;}
+#logo_kids{width:422px; height:164px; background:url('../images/classic/head1_kids.jpg') left top no-repeat;}
+#logo_car{width:422px; height:164px; background:url('../images/classic/head1_car.jpg') left top no-repeat;}
+#logo2_tech{height:41px; background:url('../images/classic/head2_tech.jpg') left top no-repeat;}
+#logo2_kids{height:41px; background:url('../images/classic/head2_kids.jpg') left top no-repeat;}
+#logo2_car{height:41px; background:url('../images/classic/head2_car.jpg') left top no-repeat;}
+#logo3_tech{height:67px; background:url('../images/classic/head3_tech.jpg') left top no-repeat; padding:4 0 0 16}
+#logo3_kids{height:67px; background:url('../images/classic/head3_kids.jpg') left top no-repeat; padding:4 0 0 16}
+#logo3_car{height:67px; background:url('../images/classic/head3_car.jpg') left top no-repeat; padding:4 0 0 16}
+
+
+#skyContentMain{height:164px; width:100%; position:relative; top:0; left:0;}
+#skyContent{width:620px; position:absolute; left:-60px; top:26px}
+.depContainer{width:105px; text-align:center; float:left; margin-right:16px;}
+a.depTitle{font-size:16px; font-weight:bold; color:#ff6900; text-decoration:none}
+a.depTitle:hover{color:#ff9a53; text-decoration:none}
+.depTitleSoon{font-size:16px; font-weight:bold; color:#ffb480;}
+.depDescription{font-size: 11px; font-weight:bold; color:#444; margin-top:4px}
+
+.search{position:absolute; top:69px; right:0;}
+.imgSubmit{border:0px; margin:0; padding:0; vertical-align:top;}
+.searchField{margin-top:60px; padding:2px; border:1px solid #999; width:200px}
+
+.menuContainer{display:block}
+.menuItem{float:right; background:url('../images/classic/menu_sep.png') right top no-repeat; padding:8 28 0 0; margin-right:14px; color:#fff}
+a.menuItemHref{color:#fff; font-size:14px; text-decoration:none}
+a.menuItemHref:hover{color:#fff; text-decoration:underline}
+
+.tel{background:url('../images/classic/phone.jpg') left bottom no-repeat; text-align:left; padding-left:56px; height:67px; float:right; width:110px !important; width:166px;}
+.tel-sep-cart{height:67px; float:right; width:40px; background:url('../images/classic/sep.gif') center bottom no-repeat; }
+.cart{background:url('../images/classic/cart.jpg') left bottom no-repeat; text-align:left; padding-left:68px; height:67px; float:right; width:135px !important; width:203px; margin-right:10px; }
+
+.caption{height:31px; background:url('../images/classic/cap.png') left top no-repeat; text-align:left; color:#fff; font-size:15px;}
+.caption2{height:31px; background:url('../images/classic/cap2.png') left top repeat-x; text-align:left; font-size:15px;}
+
+.category_container{margin:12 0 12 5; padding-left:10; width:200px;}
+.category_name{color:#3977A2; font-size:13px; font-weight:bold}
+.category_links{margin:3 0 18 0}
+a.category_link{color:#222; font-weight:bold; font-size:12px; text-decoration:none;display:block;  padding-left:20px; background:url('../images/classic/folder.gif') left top no-repeat;}
+a.category_link:hover{color:#777; text-decoration:none}
+
+.category_link{font-family: Verdana, Helvetica; font-size:12; color:#84432e; text-decoration:none; }
+.category_link:hover{font-family: Verdana, Helvetica; font-size:12; color:#84432e; text-decoration:underline;}
+.m{font-family: Verdana, Helvetica; font-size:12; color:#84432e; text-decoration:none; padding-left:20px; background:url('../images/classic/folder.gif') left top no-repeat; }
+.m:hover{font-family: Verdana, Helvetica; font-size:12; color:#84432e; text-decoration:underline;}
+.mg{font-family: Verdana, Helvetica; font-size:12; color:#ffffff; text-decoration:none; background-color:#E69A45;}
+.mg:hover{color:#ffffff;text-decoration:none;}
+
+ul{list-style: none; margin-left:5; padding-left:5; margin-right:5; padding-right:5; margin-bottom:8px;}
+.ul1{list-style: none;  width:200px; margin:0; padding:0;}
+.ul2{list-style: none; margin-left:10; padding-left:10}
+
+.imgResource{padding:2px; border:2px solid #ccc; margin-top:16px;}
+.resourceName{float:left; margin-top:14px; margin-bottom:5px; width:420; font-weight:bold; font-size:12px; color:#3977A2; text-decoration:none;}
+a.resourceNameHref{font-weight:bold; font-size:12px; color:#3977A2; text-decoration:none;}
+a.resourceNameHref:hover{color:#3977A2; text-decoration:underline;}
+.resourcePrice{float:right; background:url('../images/classic/price_green.png') center top no-repeat; width:111px; height:51px;}
+.resourcePriceRed{float:right; background:url('../images/classic/price_red.png') center top no-repeat; width:111px; height:51px;}
+.resourcePriceVal{text-align:center; padding-top:13px; color:#fff}
+
+img.preview{float:left; margin:14px}
+
+.cart_table TD {border: 1px solid #bbc5cd}
+.thrift_main {border: 1px solid #bbc5cd; border-right: 0px; padding: 5}
+.thrift_price {background-color: #FF7100; font-family:Verdana; font-weight:bold; font-size:12; color:#ffffff; border:0 !important;}
+.totalPrice {font-size:14px; font-weight:normal; color:#FF7100;  text-decoration: none}
+.separator {font-family: Verdana, Helvetica; color:#e93900;}
+
+.footer{background:#ff7100; color:#fff; text-align:center; padding:4px;}
+
+.hr{height:1px; border-top:1px solid #ccc;}
+/* fоrum  */
+.tdgreen1 {
+	background-color:#ff4709;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight :bold;
+	padding:4px 6px 4px 6px;
+	border-bottom:1px solid #fff;
+	font-size:11px;  
+}
+.tdgreen2 {
+	background-color:#DDAA44;
+	color:#ffffff;   
+	padding:3px 0px 3px 0px;
+	border-bottom:1px solid #A7A9C7; 
+	font-size:11px;  
+}
+.cellOne {
+	 background: #FBFBFD;
+	 font-size:11px;
+	 color:#38394B;   
+	 padding:1px 3px 1px 3px;
+	 border-top:1px solid #ffffff;
+	 border-bottom:1px solid #B2B3CE;
+	 border-left:1px solid #ffffff;
+	 border-right:1px solid #B2B3CE;  
+}
+.cellOneText {
+	 background: #FFFFFF;
+	 font-size:11px;
+	 color:#38394B; 
+	 padding:3px 3px 3px 3px; 
+	 border-top:1px solid #ffffff;
+	 border-bottom:1px solid #B2B3CE;
+	 border-left:1px solid #ffffff;
+	 border-right:1px solid #B2B3CE;   
+}
+.cellTwo {
+
+	font-size:11px;
+	color:#38394B;   
+	padding:0px 0px 0px 0px; 
+	border-top:1px solid #ffffff;
+	border-bottom:1px solid #B2B3CE;
+}
+
+.cellTwo1 {
+
+	font-size:11px;
+	color:#38394B;
+	padding:1px 3px 1px 3px; 
+	border-top:1px solid #ffffff;
+	border-bottom:1px solid #B2B3CE;
+	border-right:1px solid #B2B3CE;   
+}
+.blue {
+	color:#77A5EB;
+}
+table.quote{
+	width:100%;
+	border:1px solid #B2B3CE;
+	background: #FBFBFD url("../images/forum/cellone.jpg") repeat-x left top;
+}
+div.quote{
+	width:95%;
+	padding-left:10px;
+}
+h1 { font-size:17px; }
+#brand h1{
+	margin: 0px; padding: 0px; font-size: 13px; font-weight:500; color:#666666; 
+}
+#b h3{
+	margin: 0px; padding: 0px; font-size: 11px; font-weight:500;
+}
+font.quote{
+	font-size:11px;
+	color:#8D8D8D;
+}
+.greyTable {
+ 	background-color: #FBFBFD;
+	font-size:11px;
+	color:#333333;
+	padding:5px;
+	border:1px solid #E9EAEE;
+}
+th{
+	background-color: #A1127D;
+	color: #FFFFFF;
+	font-weight:100;
+	font-size:12px;
+	text-align:center;
+}
+td.greyrow1{
+	background: #FBFBFD;
+	border-bottom: solid 1px #E9EAEE;
+	border-right: solid 1px #E9EAEE;
+	font-size: 11px;
+	padding: 5px;
+	text-align:right;
+}
+
+td.greyrow2{
+	border-bottom: solid 1px #E9EAEE;
+	border-right: solid 1px #E9EAEE;
+	font-size: 11px;
+	padding: 5px;
+}
+
+.textArticle a{
+	font-family: Verdana, Tahoma, Helvetica;
+	font-size:11px;
+}

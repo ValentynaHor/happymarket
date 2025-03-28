@@ -1,0 +1,662 @@
+body {margin:0; padding:0; font-family:'Open Sans', Arial, Verdana, sans-serif; font-size: 12px; color: #323232; height:100%}
+td {font-family:'Open Sans', Arial, Verdana, sans-serif; font-size: 12px; color: #323232;}
+td .td1 {font-size:15px; color:#fff;height:26px; padding: 0 0 0 16px; line-height:13px;}
+img {border:0; margin:0; padding:0;}
+input {border:1px solid #dadcde; margin: 2; vertical-align:middle;}
+textarea {border: 1px solid #dadcde;}
+input, textarea {
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+}
+select {border: 1px solid #dadcde; vertical-align:middle;}
+
+fieldset {border: 0; padding-left: 0; padding-right: 0}
+form fieldset {border: 1px solid #dde0e3; padding-left: 10px; padding-right: 10px}
+FORM {margin:0; padding:0}
+body>table {
+  max-width: 1200px
+}
+/*HOME INTRO*/
+#mainintro{background:#D5F1FC url('http://www.happymarket.net.ua/images/classic/mainbg.jpg') center top no-repeat; width:100%; height:900px; overflow:hidden;position:relative }
+#refCont{width:1000px; height:900px; position:relative}
+#smiley{position:absolute; left:280; top:21; background:url('http://www.happymarket.net.ua/images/classic/smiley.png') center top no-repeat; width:436px; height:517px;}
+#vehicle{position:absolute; left:-5; top:148; background:url('http://www.happymarket.net.ua/images/classic/vehicle.png') center top no-repeat; width:244px; height:174px;}
+#kids{position:absolute; right:8; top:76; background:url('http://www.happymarket.net.ua/images/classic/lildudes.png') center top no-repeat; width:207px; height:244px;}
+#hobby{position:absolute; left:21px; top:367px; background:url('http://www.happymarket.net.ua/images/classic/hobby.png') center top no-repeat; width:230px; height:174px;}
+#comfort {position: absolute;left: 779px;top: 405px; background: url("../images/classic/comfort.png") 50% 0% no-repeat transparent;width:216px; height:161px;}
+#soon1{position:absolute; right:10; top:180; width:207px; height:244px;}
+#footerHome{position:absolute; right:0; bottom:4; text-align:center; width:100%; color:#020202; }
+#hobby div {position:absolute; top:180px; left:59px}
+#hobby div div.titleHome2 {position:static; margin:5px 0 0}
+#conterHome{position:absolute; right:10; bottom:0; text-align:right; width:360px;}
+
+.titleHomeMain, a.titleHomeMain, a.titleHomeMain:hover{font-size:23px; color:#1d1d1d; text-align:center;  text-decoration:none;}
+.titleHomeMain2, a.titleHomeMain2, a.titleHomeMain2:hover{font-size:23px; color:#ff3000; text-align:center; font-weight:bold;  text-decoration:none;}
+.titleHome, a.titleHome, a.titleHome:hover{font-size:18px; color:#ff701a; font-weight:bold;  text-decoration:none;}
+.titleHome2, a.titleHome2, a.titleHome2:hover{font-size:13px; color:#030303; font-weight:bold;  text-decoration:none;}
+
+.line {
+  background: url('../images/v2_1.png') left top repeat-x;
+  height: 36px;
+  width: 100%;
+}
+
+
+a, input{outline:none}
+.loginButton[type="submit"]{
+  width:88px; height:50px; border:none; cursor:pointer; margin-left:10px;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+}
+.button1{width:101px; height:28px; border:none; cursor:pointer; vertical-align:middle; }
+input[type="submit"], .btn, a.btn {
+  background: #3977A2;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  position: relative;
+  overflow: hidden;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+input[type="submit"]:hover, input[type="submit"]:focus, a.btn:hover, a.btn:focus {
+  color: #fff;
+  background: #047acb
+}
+.registration {display: block;margin:8px 0 0 0;}
+a.btn-main, .btn-main, input.btn-main[type="submit"]{
+  background: #e93900;
+}
+a.btn-main:hover, a.btn-main:focus, input.btn-main[type="submit"]:hover, .btn-main:hover, .btn-main:focus, input.btn-main[type="submit"]:focus{
+  background: #c50f0f
+}
+input.inputnontext[type="submit"] {
+  border: 0;
+  height: 37px;
+  margin-left: 20px;
+  margin-right:0;
+  margin-top:24px;
+  width: 120px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+h1{margin-bottom:6px;}
+
+a{color:#e93900; text-decoration:underline;}
+a:hover {color:#e93900; text-decoration:none;}
+a.black{color:#000; font-weight:bold; text-decoration:underline;}
+a.black:hover{color:#555; text-decoration:underline;}
+a.black_nostyle{text-decoration:none;}
+a.black_nostyle:hover {color:#555; text-decoration:none;}
+a.blue{color:#041bfd;}
+a.blue:hover{color:#041bfd;}
+.d3{color:#e93900;}
+.d3{}
+
+a.a1{
+  color:#333;
+  font-size: 15px
+}
+a.a1:before {
+  conten
+}
+a.a1:hover, a.a1:focus {
+  color: #e93900;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+a.a2{color:#3977A2;}
+a.a3{font-size:16px; font-weight:bold; color:#3977A2; text-decoration:underline;}
+a.a3:hover{ text-decoration:none;}
+a.a4, a.a4_act {margin-left:20px;font-weight:bold;font-size:11px;}
+a.a4 {color:#04293D; text-decoration:none}
+a.a4_act{text-decoration:underline;color:#FF8000;}
+
+#centerpiece{padding:10 20 26 20; width:100% \9; }
+.header-block {
+  height: 168px;
+}
+.header {
+  padding: 14px 0 20px
+}
+.header-top {
+  padding-bottom: 10px
+}
+.logo {
+  float: left;
+  margin: 0 20px 0 0;
+  text-align: center;
+}
+.logo a {
+  text-decoration: none;
+}
+.logo img {
+  border: 0;
+}
+.logo span {
+  display: block;
+  font-family: 'Candal', sans-serif;
+  font-size: 18px;
+  line-height: 1.1;
+/*  text-shadow:1px 1px 0 rgba(0,0,0,.6);*/
+}
+#menu{
+  background: #ff7e00;
+  height:41px;
+}
+#submenu{
+  float: right;
+  padding: 7px 0 0
+}
+#logo_tech{width:422px; height:164px; background:url('http://www.happymarket.net.ua/images/classic/head1_tech.jpg') left top no-repeat;}
+#logo_car{width:422px; height:164px; background:url('http://www.happymarket.net.ua/images/classic/head1_car.jpg') left top no-repeat;}
+#logo_housetech{width:422px; height:164px; background:url('http://www.happymarket.net.ua/images/classic/head1_housetech.jpg') left top no-repeat;}
+#logo_hifi{width:422px; height:164px; background:url('http://www.happymarket.net.ua/images/classic/head1_hifi.jpg') left top no-repeat;}
+#logo2_tech{height:41px; background:url('http://www.happymarket.net.ua/images/classic/head2_tech.jpg') left top no-repeat;}
+#logo2_kids{height:41px; background:url('http://www.happymarket.net.ua/images/classic/head2_kids.jpg') left top no-repeat;}
+#logo2_car{height:41px; background:url('http://www.happymarket.net.ua/images/classic/head2_car.jpg') left top no-repeat;}
+#logo2_housetech{height:41px; background:url('http://www.happymarket.net.ua/images/classic/head2_housetech.jpg') left top no-repeat;}
+#logo2_hifi{height:41px; background:url('http://www.happymarket.net.ua/images/classic/head2_hifi.jpg') left top no-repeat;}
+#logo3_tech{height:67px; background:url('http://www.happymarket.net.ua/images/classic/head3_tech.jpg') left top no-repeat; padding:4 0 0 16}
+#logo3_car{height:67px; background:url('http://www.happymarket.net.ua/images/classic/head3_car.jpg') left top no-repeat; padding:4 0 0 16}
+#logo3_housetech{height:67px; background:url('http://www.happymarket.net.ua/images/classic/head3_housetech.jpg') left top no-repeat; padding:4 0 0 16}
+#logo3_hifi{height:67px; background:url('http://www.happymarket.net.ua/images/classic/head3_hifi.jpg') left top no-repeat; padding:4 0 0 16}
+#logo_komfort {width:422px; height:164px; background:url('http://www.happymarket.net.ua/images/classic/head1_comfort.jpg') left top no-repeat;}
+#logo2_komfort {height:41px; background:url('http://www.happymarket.net.ua/images/classic/head2_comfort.jpg') left top no-repeat;}
+#logo3_komfort {height:67px; background:url('http://www.happymarket.net.ua/images/classic/head3_comfort.jpg') left top no-repeat; padding:4 0 0 16}
+
+
+
+.search{
+  margin: 24px 400px 0 240px;
+}
+.search form {
+  margin: 0 auto;
+  max-width: 350px;
+  position: relative;
+}
+.imgSubmit[type="submit"]{
+  background: url('../images/search.png') 10% 50% no-repeat;
+  border:0;
+  cursor: pointer;
+  height: 38px;
+  margin:0;
+  padding:0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+.imgSubmit[type="submit"]:hover, .imgSubmit[type="submit"]:focus {
+  background:  url('../images/search_hover.png') 10% 50% no-repeat;
+}
+.searchField{
+  border: 1px solid #dde0e3;
+  font: 300 21px/19px "Open Sans", arial, "helvetica cy", "nimbus sans l", tahoma, sans-serif;;
+  height: 38px;
+  margin: 0;
+  padding: 6px 40px 8px 12px;
+  width: 100%;
+  -moz-border-radius: 23px;
+  -webkit-border-radius: 23px;
+  border-radius: 23px;
+}
+.searchField::-webkit-input-placeholder{font:300 21px/28px "Open Sans", arial, "helvetica cy", "nimbus sans l", tahoma, sans-serif;color:#afb9c3}
+.searchField:-moz-placeholder{font:300 21px/28px "Open Sans", arial, "helvetica cy", "nimbus sans l", tahoma, sans-serif;color:#647788}
+.searchField::-moz-placeholder{font:300 21px/28px "Open Sans", arial, "helvetica cy", "nimbus sans l", tahoma, sans-serif;color:#647788}
+.searchField.placeholder{font:300 21px/28px "Open Sans", arial, "helvetica cy", "nimbus sans l", tahoma, sans-serif;color:#afb9c3}
+.more-search {
+  text-align: right;
+}
+.more-search a {
+  font-size:11px;
+  text-decoration:none
+}
+.menuContainer{display:block; height:100%; overflow: hidden;}
+.menuItem{float:right;padding:8 18 0 0; margin-right: -2px; color:#fff}
+*html .menuItem{float:right; padding:8 28 0 0; margin-right:14px; color:#fff}
+a.menuItemHref{color:#fff; font-size:17px; text-decoration:none}
+a.menuItemHref:hover{color:#fff; text-decoration:underline}
+
+.address{background:url('http://www.happymarket.net.ua/images/classic/address.jpg') left top no-repeat; text-align:left; margin-top:14px; padding-left:26px; height:53px; float:right; width:130px !important; width:156px;}
+.tel{text-align:left; float:right; font-size: 20px;padding: 9px 0 0}
+.tel-sep-cart{height:67px; float:right; width:40px; background:url('http://www.happymarket.net.ua/images/classic/sep.gif') center bottom no-repeat; }
+.cart{background:url('http://www.happymarket.net.ua/images/classic/cart.jpg') left bottom no-repeat; text-align:left; padding:10px 0 0 68px; height:62px; float:right; width:115px !important; width:183px; margin-right:0;}
+
+.caption{
+  height:31px; background: #39b54a; text-align:left; color:#fff; font-size:15px;
+  -moz-border-radius: 23px;
+  -webkit-border-radius: 23px;
+  border-radius: 23px;
+}
+.login-cap {
+  line-height: 29px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.caption2{height:31px;  text-align:left; font-size:15px;}
+
+.category_container{display: inline-block;margin:12px -2px 30px; width:25%; min-width: 170px; vertical-align: top}
+.category_name{color:#3977A2; font-size:13px; font-weight:bold}
+.category_links{
+  margin:3 0 18 0; clear:both; background:
+}
+div.category_links {
+  margin: 0 0 7px;
+}
+div.category_links a{
+  display:block;
+  background: #39b54a;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 20px 6px;
+  text-align: center;
+  text-decoration: none;
+  -moz-border-radius: 23px;
+  -webkit-border-radius: 23px;
+  border-radius: 23px;
+}
+div.category_links a:hover,
+div.category_links a:focus {
+  background: #ff7e00;
+  color: #fff;
+}
+a.category_link{color:#222; font-weight:bold; font-size:14px; text-decoration:none;display:block;}
+a.category_link:hover{color:#777; text-decoration:none}
+a.category_link_sel{color:#222; text-decoration:none;display:block;}
+
+.category_link{font-size:12px; color:#84432e; text-decoration:none; }
+.category_link:hover{color:#84432e; text-decoration:underline;}
+.m{font-family: Verdana, Helvetica;display:block;  font-size:11; color:#3977A2; text-decoration:none; font-weight:bold;}
+.m:hover{font-family: Verdana, Helvetica;display:block; color:#3977A2; text-decoration:underline;}
+.mg{font-family: Verdana, Helvetica; display:block; font-size:11; color:#000000; text-decoration:none; font-weight:bold;}
+.mg:hover{color:#000000;text-decoration:none;display:block; font-weight:bold}
+
+ul{list-style: none; margin-left:5; padding-left:5; margin-right:5; padding-right:5; margin-bottom:8px;}
+.ul1{list-style: none;  width:200px; margin:0 0 0 5px; padding:0;}
+.ul1 li {
+  margin-bottom: 10px
+}
+.ul2{list-style: none; margin-left:10; padding-left:10; margin-top:4px;}
+.ul1 li {
+  margin-bottom: 8px
+}
+.imgResource{padding:2px; border:2px solid #ccc; margin-top:16px; color:#999;}
+.resourceName{margin-top:14px; margin-bottom:5px; font-weight:bold; font-size:14px; color:#3977A2; text-decoration:none;}
+a.resourceNameHref{font-weight:bold; font-size:14px; color:#3977A2; text-decoration:none;}
+a.resourceNameHref:hover{color:#3977A2; font-size:14px; text-decoration:underline;}
+.resourcePrice, .resourcePriceRed{float:right; font-size:20px;text-align:center; width:120px; height:71px; padding-top:14px;}
+.resourcePriceVal{ color: #39b54a}
+.resourcePriceEmpty{text-align:center; padding-top:14px; padding-left:6px; color:#ff0000; font-size:11px;}
+.opt-price {
+  color: #3977A2;
+  text-align:center;
+  white-space: nowrap;
+}
+.resourcePriceRed .resourcePriceVal {
+  color: #e93900
+}
+.two-prices .resourcePriceVal{font-size: 12px; }
+img.preview{float:left; margin:14px}
+
+.cart_table TD {border: 1px solid #bbc5cd}
+.thrift_main {border: 1px solid #bbc5cd; border-right: 0px; padding: 5}
+.thrift_price {background-color: #FF7100; font-family:Verdana; font-weight:bold; font-size:12; color:#ffffff; border:0 !important;}
+.totalPrice {font-size:14px; font-weight:normal; color:#FF7100;  text-decoration: none}
+.separator {font-family: Verdana, Helvetica; color:#e93900;}
+
+.footer{ height:26px; background:#ff7100; color:#fff; text-align:center; }
+
+.d1{
+  text-align:center;
+  margin:0px;
+  padding:0px;
+}
+.d2{
+  text-align:left;
+  padding:20px 0px 0px 0px;
+}
+.hr{height:1px; border-top:1px solid #ccc;}
+/* fРѕrum  */
+.tdgreen1 {
+  background-color:#ff4709;
+  color:#FFFFFF;
+  font-size:12px;
+  font-weight :bold;
+  padding:4px 6px 4px 6px;
+  border-bottom:1px solid #fff;
+  font-size:11px;
+}
+.tdgreen2 {
+  background-color:#DDAA44;
+  color:#ffffff;
+  padding:3px 0px 3px 0px;
+  border-bottom:1px solid #A7A9C7;
+  font-size:11px;
+}
+.cellOne {
+   background: #FBFBFD;
+   font-size:11px;
+   color:#38394B;
+   padding:1px 3px 1px 3px;
+   border-top:1px solid #ffffff;
+   border-bottom:1px solid #B2B3CE;
+   border-left:1px solid #ffffff;
+   border-right:1px solid #B2B3CE;
+}
+.cellOneText {
+   background: #FFFFFF;
+   font-size:11px;
+   color:#38394B;
+   padding:3px 3px 3px 3px;
+   border-top:1px solid #ffffff;
+   border-bottom:1px solid #B2B3CE;
+   border-left:1px solid #ffffff;
+   border-right:1px solid #B2B3CE;
+}
+.cellTwo {
+
+  font-size:11px;
+  color:#38394B;
+  padding:0px 0px 0px 0px;
+  border-top:1px solid #ffffff;
+  border-bottom:1px solid #B2B3CE;
+}
+
+.cellTwo1 {
+
+  font-size:11px;
+  color:#38394B;
+  padding:1px 3px 1px 3px;
+  border-top:1px solid #ffffff;
+  border-bottom:1px solid #B2B3CE;
+  border-right:1px solid #B2B3CE;
+}
+.blue {
+  color:#77A5EB;
+}
+table.quote{
+  width:100%;
+  border:1px solid #B2B3CE;
+  background: #FBFBFD url("../images/forum/cellone.jpg") repeat-x left top;
+}
+div.quote{
+  width:95%;
+  padding-left:10px;
+}
+h1 { font-size:17px; }
+#brand h1{
+  margin: 0px; padding: 0px; font-size: 13px; font-weight:500; color:#666666;
+}
+#b h3{
+  margin: 0px; padding: 0px; font-size: 11px; font-weight:500;
+}
+font.quote{
+  font-size:11px;
+  color:#8D8D8D;
+}
+.greyTable {
+  background-color: #FBFBFD;
+  font-size:11px;
+  color:#333333;
+  padding:5px;
+  border:1px solid #E9EAEE;
+}
+th{
+  background-color: #A1127D;
+  color: #FFFFFF;
+  font-weight:100;
+  font-size:12px;
+  text-align:center;
+}
+td.greyrow1{
+  background: #FBFBFD;
+  border-bottom: solid 1px #E9EAEE;
+  border-right: solid 1px #E9EAEE;
+  font-size: 11px;
+  padding: 5px;
+  text-align:right;
+}
+
+td.greyrow2{
+  border-bottom: solid 1px #E9EAEE;
+  border-right: solid 1px #E9EAEE;
+  font-size: 11px;
+  padding: 5px;
+}
+
+.textArticle a{
+  font-family: Verdana, Tahoma, Helvetica;
+  font-size:11px;
+}
+
+.caption2 h1{font-size:15px; margin:0px; padding:0px; text-align:left; display:inline; }
+.resourceName h1{margin:0px; padding:0px; font-weight:bold; font-size:14px; color:#3977A2; text-decoration:none;}
+.d2 h1, .d2 h2{ margin:0; padding:0; color:#3977A2; font-size:13px; font-weight:bold; }
+.d2 h2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 140px
+}
+.d4 h1{ margin:0px; padding:0px; font-size: 12px; color: #323232; font-weight:400; display:inline; }
+.titleHome2 h1{ margin:0px; padding:0px; font-size:13px; color:#030303; font-weight:bold;  text-decoration:none;}
+.categories-wrap {
+  margin-top:16px;
+  padding-left:2%;
+  text-align: center;
+}
+.categories_main {
+  display: inline-block;
+}
+.categories_main .d2 {
+  padding-top: 5px;
+  text-align: center;
+}
+.category_img_wrap {
+  display: table;
+  height: 124px;
+  margin: 0 auto;
+  table-layout: fixed;
+  width: 124px;
+}
+.category_img {
+  border: 2px solid #39b54a;
+  display: table-cell;
+  height: 120px;
+  text-align: center;
+  width: 120px;
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  transition: transform 0.8s ease;
+}
+.category_img:hover {
+  -webkit-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.category_img, .category_img img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.category_img img {
+  display: inline-block;
+  max-height: 120px;
+  max-width: 120px;
+}
+.text-block{margin:15px 0 0; text-align:justify;}
+.login-block input[type="text"],
+.login-block input[type="password"] {
+  width:100%; height:23px; font-size:11px; padding-left: 8px; padding-right: 8px
+ }
+.remember {
+  margin-top: 8px
+}
+.bl-count {
+  padding: 20px 0;
+  vertical-align: bottom;
+}
+.aside {
+  height: 100%;
+  vertical-align: top;
+  width:253px;
+}
+.aside table {
+  width: 100%
+}
+.aside > table {
+  height: 100%;
+}
+.aside-top {
+  vertical-align: top
+}
+.aside table.login-block {
+  margin-top: 5px;
+  table-layout: fixed;
+  width: 100%
+}
+
+.aside table.login-block td.login-but {
+  width: 98px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.caption.popup-link-hover {
+  text-align: center;
+  position: relative;
+  z-index: 11
+}
+.caption.popup-link-hover i{
+  display: inline-block;
+  background: #fff;
+  height: 2px;
+  margin-right: 7px;
+  vertical-align: middle;
+  width: 16px;
+}
+.caption.popup-link-hover i:before,
+.caption.popup-link-hover i:after {
+  content: "";
+  background: #fff;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 100%;
+}
+.caption.popup-link-hover td {
+  padding-right: 16px;
+  text-align: center;
+}
+.caption.popup-link-hover i:before {
+  top: -4px
+}
+.caption.popup-link-hover i:after {
+  bottom: -2px
+}
+/* popup cotegories */
+.categories-block {
+    margin-top: 14px;
+    padding: 0 0 8px;
+    position: relative;
+    z-index: 5;
+}
+.popup-categories {
+    left: 0;
+    padding: 40px 0 0;
+    position: absolute;
+    top: 0;
+    width:359px;
+    z-index: 10;
+}
+.popup-link-hover {
+  cursor: pointer;
+}
+.categories-block .popup-categories{display:block;visibility:hidden;z-index:-10}
+.popup-categories .popup-drop{background-image:url(http://s.in.ck.ua/assets/icons-s175e9f24e1-25c85138b9e8bc688eb1654232529f12.png);background-repeat:no-repeat}
+.popup-categories a{text-decoration:none}
+.popup-categories .title-category{display:block;font:400 17px/1 "Open Sans", arial, "helvetica cy", "nimbus sans l", tahoma, sans-serif;padding:3px 6px 0; color: #333;}
+
+.category-icons {
+  height: 100%;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.popup-categories .popup-categories-wrap{padding:6px 0 0}
+.popup-categories .popup-drop{background-position:-32px 0;height:9px;position:absolute;right:19px;top:-9px;width:14px;z-index:1}
+.popup-categories .popup-categories-mid{background:#fff;border:2px solid #39b54a;overflow:hidden;position:relative;z-index:0;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-moz-box-shadow:0 3px 7px rgba(100,119,136,0.5);-webkit-box-shadow:0 3px 7px rgba(100,119,136,0.5);box-shadow:0 3px 7px rgba(100,119,136,0.5)}
+.popup-categories .popup-categories-mid ul {
+  margin: 0;
+  padding: 0
+}
+.popup-categories .popup-categories-mid ul li {
+  list-style: none
+}
+.popup-categories .popup-categories-mid ul li a {
+  background: #fff;
+  display: block;
+  padding: 10px 15px 11px
+}
+.popup-categories .popup-categories-mid ul li:first-child a {
+  border-top: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.popup-categories .popup-categories-mid ul li a:hover,
+.popup-categories .popup-categories-mid ul li a:focus {
+  background: #39b54a;
+}
+.popup-categories .popup-categories-mid ul li a:hover span,
+.popup-categories .popup-categories-mid ul li a:focus span{
+  color: #fff;
+}
+.list-brands {
+  color:#ff4709;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top:5px;
+  width:100%;
+}
+.list-brands a {
+  text-decoration: none
+}
+.list-brands a:hover {
+  text-decoration: underline;
+}
+.carousel {
+  overflow:hidden; height:150px; position:relative;z-index:0
+}
+@media screen and (max-width: 900px) {
+  .aside table.login-block td.login-but {
+      width: 78px;
+  }
+  .loginButton[type="submit"] {
+      width: 68px;
+  }
+}
